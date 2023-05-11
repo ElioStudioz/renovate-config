@@ -1,9 +1,0 @@
-{
-  "extends": [
-    "github>lazistudioz/renovate-config"
-  ],
-  "packageRules": [{
-    "packagePatterns": ["^lazistudioz-cms"],
-    "schedule": null
-  }]
-}

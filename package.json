@@ -1,5 +1,5 @@
 {
-  "name": "lazistudioz-renovate-config",
+  "name": "eliostudioz-renovate-config",
   "version": "0.0.1",
   "scripts": {
     "test": "renovate-config-validator"

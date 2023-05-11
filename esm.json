@@ -1,4 +1,4 @@
 {
-  "extends": ["github>lazistudioz/renovate-config:shared"],
+  "extends": ["github>eliostudioz/renovate-config:shared"],
   "packageRules": []
 }

@@ -1,5 +1,5 @@
 {
-  "extends": ["local>lazistudioz/renovate-config:shared", "local>lazistudioz/renovate-config:spacelift-terraform.json5"],
+  "extends": ["local>eliostudioz/renovate-config:shared", "local>eliostudioz/renovate-config:spacelift-terraform.json5"],
   "packageRules": [
     {
       "matchManagers": ["npm"],

@@ -2,7 +2,7 @@
   "description": "Upgrade rules for tooling the Runtime team uses",
   "packageRules": [
     {
-      "matchPackageNames": ["@lazistudioz-shed/kiln", "kiln-runner"],
+      "matchPackageNames": ["@eliostudioz-shed/kiln", "kiln-runner"],
       "groupName": "kiln packages"
     }
   ],
@@ -17,7 +17,7 @@
       ],
       "extractVersionTemplate": "^kiln-runner-v(?<version>[\\d\\.]+)$",
       "depNameTemplate": "kiln-runner",
-      "lookupNameTemplate": "lazistudioz/kiln",
+      "lookupNameTemplate": "eliostudioz/kiln",
       "datasourceTemplate": "github-releases"
     }
   ]

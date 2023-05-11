@@ -18,7 +18,7 @@
         "ksg_version: \"?(?<currentValue>v\\d+(\\.\\d+(\\.\\d+([-\\.][\\w\\.-]+)?)?)?)\"?"
       ],
       "depNameTemplate": "KSG",
-      "lookupNameTemplate": "lazistudioz/ksg-cli",
+      "lookupNameTemplate": "eliostudioz/ksg-cli",
       "datasourceTemplate": "github-releases"
     }
   ]

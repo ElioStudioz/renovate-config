@@ -12,7 +12,7 @@
   "packageRules": [
     {
       "matchManagers": ["npm"],
-      "matchPackagePatterns": ["^@lazistudioz", "^lazistudioz", "^github.com/lazistudioz"],
+      "matchPackagePatterns": ["^@eliostudioz", "^eliostudioz", "^github.com/eliostudioz"],
       "rangeStrategy": "bump",
       "schedule": null
     },
@@ -23,7 +23,7 @@
     },
     {
       "matchManagers": ["npm"],
-      "matchPackageNames": ["@lazistudioz/zip-it-and-ship-it"],
+      "matchPackageNames": ["@eliostudioz/zip-it-and-ship-it"],
       "groupName": "Netlify packages"
     },
     {

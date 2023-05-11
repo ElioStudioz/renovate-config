@@ -1,6 +1,6 @@
 {
   "extends": [
-    "github>lazistudioz/renovate-config"
+    "github>eliostudioz/renovate-config"
   ],
   "packageRules": [
     {
@@ -8,7 +8,7 @@
       "enabled": false
     },
     {
-      "packagePatterns": ["^lazistudioz-cms"],
+      "packagePatterns": ["^eliostudioz-cms"],
       "schedule": null,
       "enabled": true
     }
