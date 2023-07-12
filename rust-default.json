@@ -42,7 +42,14 @@
       "groupName": "tracing packages"
     },
     {
-      "matchPackageNames": ["hyper-rustls", "rustls", "rustls-native-certs", "tokio-rustls", "webpki", "webpki-roots"],
+      "matchPackageNames": [
+        "hyper-rustls",
+        "rustls",
+        "rustls-native-certs",
+        "tokio-rustls",
+        "webpki",
+        "webpki-roots"
+      ],
       "groupName": "rustls packages"
     }
   ],

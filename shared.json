@@ -12,7 +12,11 @@
   "packageRules": [
     {
       "matchManagers": ["npm"],
-      "matchPackagePatterns": ["^@eliostudioz", "^eliostudioz", "^github.com/eliostudioz"],
+      "matchPackagePatterns": [
+        "^@eliostudioz",
+        "^eliostudioz",
+        "^github.com/eliostudioz"
+      ],
       "rangeStrategy": "bump",
       "schedule": null
     },

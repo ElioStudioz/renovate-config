@@ -1,9 +1,9 @@
 {
-  "extends": [
-    "github>eliostudioz/renovate-config"
-  ],
-  "packageRules": [{
-    "packagePatterns": ["^eliostudioz-cms"],
-    "schedule": null
-  }]
+  "extends": ["github>eliostudioz/renovate-config"],
+  "packageRules": [
+    {
+      "packagePatterns": ["^eliostudioz-cms"],
+      "schedule": null
+    }
+  ]
 }

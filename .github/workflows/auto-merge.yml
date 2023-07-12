@@ -1,0 +1,22 @@
+name: Auto Approve and Merge PR
+
+on:
+  pull_request:
+    types:
+      - opened
+      - synchronize
+
+jobs:
+  auto_approve_merge:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Auto-approve and merge PR
+        uses: repo-sync/github-sync@v2
+        with:
+          repo-token: ${{ secrets.TOKEN }}
+          auto-approve-label: "auto-approve"
+          merge-method: "merge"

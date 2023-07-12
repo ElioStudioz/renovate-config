@@ -1,7 +1,5 @@
 {
-  "extends": [
-    "github>eliostudioz/renovate-config"
-  ],
+  "extends": ["github>eliostudioz/renovate-config"],
   "packageRules": [
     {
       "packagePatterns": ["*"],
